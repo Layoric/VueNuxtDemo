@@ -13,7 +13,6 @@
   <Target Name="Bundle" BeforeTargets="BeforePublish">
     <Exec Command="npm install --also=dev" />
     <Exec Command="tsc src/shared/dtos.ts" />
-    <Exec Command="npm run-script build" />
   </Target>
 
   <ItemGroup>
