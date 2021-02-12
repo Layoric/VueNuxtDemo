@@ -21,6 +21,7 @@
     "ts-node": "^8.10.2"
   },
   "devDependencies": {
+    "@nuxt/cli": "^2.14.12",
     "@nuxtjs/proxy": "^2.0.1",
     "@servicestack/cli": "^1.0.10",
     "babel-eslint": "^10.1.0",
